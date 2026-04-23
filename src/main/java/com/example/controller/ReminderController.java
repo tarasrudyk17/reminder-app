@@ -30,7 +30,13 @@ public class ReminderController {
     }
 
     private void addReminder() {
-        String text = UserInput.askText("Enter reminder text: ");
+       String text = UserInput.askText("Enter reminder text: ");
+
+        if (text == null || text.isBlank()) {
+            view.showMessage("Error: reminder text cannot be empty");
+            return;
+        }
+
         LocalDate date = UserInput.askDate("Enter date (YYYY-MM-DD): ");
         reminders.add(new Reminder(text, date));
         view.showMessage("Reminder added!");
