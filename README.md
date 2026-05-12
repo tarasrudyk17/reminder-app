@@ -1,5 +1,7 @@
 # Reminder App
 
+[![CI/CD Pipeline](https://github.com/tarasrudyk17/reminder-app/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tarasrudyk17/reminder-app/actions/workflows/ci-cd.yml)
+
 ## Опис проєкту
 Reminder App — це консольний Java-застосунок для керування нагадуваннями.
 
