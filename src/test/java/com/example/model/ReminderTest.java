@@ -11,7 +11,7 @@ class ReminderTest {
     void reminderTextShouldBeCorrect() {
         Reminder reminder = new Reminder("Buy milk", LocalDate.of(2026, 5, 12));
 
-        assertEquals("Buy milk", reminder.getText());
+        assertEquals("Buy bread", reminder.getText());
     }
 
     @Test
