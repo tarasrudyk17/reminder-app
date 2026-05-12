@@ -40,5 +40,5 @@ public class ReminderController {
         LocalDate date = UserInput.askDate("Enter date (YYYY-MM-DD): ");
         reminders.add(new Reminder(text, date));
         view.showMessage("Reminder added successfully!");
-        }
     }
+}
